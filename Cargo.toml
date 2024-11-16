@@ -1,0 +1,17 @@
+[package]
+name = "starter-rust-crate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+assertables = { version = "9.3.0" } # Assert macros for testing and runtime in production.
+confy = { version = "0.6.1" } # Configuration management.
+clap = { version = "4.5.20", features = ["string", "wrap_help"] } # Command Line Argument Parser
+env_logger = { version = "0.9.3" } # A logger that can be configured via environment variables.
+indoc = { version = "2.0.5" } # Indented document literals.
+map = { version = "1.3.0" } # The map! macro for creating map collections.
+log = { version = "0.4.22" } # Lightweight logging facade.
+thiserror = { version = "1.0.64" } # Error derive macro for the standard library’s std::error::Error trait.
+serde = { version = "1.0.210", features = ["derive"] } # Serialize/deserialize framework.
+
+
